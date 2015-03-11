@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Efficient methods of data acquisition and visualization in Vibroarthrography</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<!--
+    
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+    
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+    
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+    
+    The class name on body element also depends on currently active presentation step. More details about
+    it can be found later, when `hint` element is being described.
+    
+-->
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <h1>Efficient methods of data acquisition and visualization in Vibroarthrography</h1>
+        <span class="footnote">Final presentation</span><br />
+        <p>Leysan Nurgalieva<br />
+        Supervisor: prof. Yannis Velegrakis</p>
+    </div>
+
+
+        <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+            <q><strong>Vibroarthrography</strong> Project</q>
+        </div>
+
+        <div class="step slide" data-x="0" data-y="-1500">
+            <q>The <strong>Method</strong></q>
+        </div>
+
+        <div class="step slide" data-x="1000" data-y="-1500">
+            <q>Knee Osteoarthritis</q>
+        </div>
+
+    <div id="its" class="step" data-x="850" data-y="3500" data-rotate="90" data-scale="5">
+        <p>The <strong>Problems</strong> of the <br/>
+        VAG Project</p>
+        
+        <p>How they were seen?<br />
+        Who was trying to solve them?</p>
+    </div>
+
+        <div id="tiny" class="step" data-x="450" data-y="2000" data-z="-2000" data-rotate="90" data-scale="1">
+            <p>Why is it <b>hard</b>?</p>
+            <p>Age, ICT literacy, many patients, time critical,<br />
+            Literature review - no-one does this in genereal for VAG</p>
+        </div>
+
+        <div class="step slide" data-x="-150" data-y="2000" data-rotate="90">
+            <q>User<strong> Studies</strong></q>
+        </div>
+
+        <div class="step slide" data-x="-150" data-y="3000" data-rotate="90">
+            <q>Two problems</q>
+        </div>
+
+         <div class="step slide" data-x="2900" data-y="-900" data-rotate="0">
+            <q>Knee Osteoarthritis</q>
+         </div>
+         <div class="step slide" data-x="4100" data-y="-900" data-rotate="0">
+            <q>Knee Osteoarthritis</q>
+         </div>
+
+        <div id="big" class="step" data-x="3500" data-y="100" data-rotate="0" data-scale="6">
+            <p>Measurement Improvements</p>
+        </div>
+
+            <div class="step slide" data-x="2900" data-y="900" data-rotate="0">
+                <q>Knee Osteoarthritis</q>
+            </div>
+
+            <div class="step slide" data-x="4100" data-y="900" data-rotate="0">
+                <q>Knee Osteoarthritis</q>
+            </div>
+
+        <div id="big" class="step" data-x="3500" data-y="2000" data-rotate="0" data-scale="6">
+            <p>Results visualization</p>
+        </div>
+
+            <div class="step slide" data-x="2900" data-y="2800" data-rotate="0">
+                <q>Knee Osteoarthritis</q>
+            </div>
+
+            <div class="step slide" data-x="4100" data-y="2800" data-rotate="0">
+                <q>Knee Osteoarthritis</q>
+            </div>
+
+    <div id="imagination" class="step" data-x="7300" data-y="-900" data-scale="6">
+        <p><b class="imagination">Conclusions</b> and Future Work</p>
+    </div>
+
+    <div id="source" class="step" data-x="6800" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q>use the source</a>, Luke!</q>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>-->
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
+
