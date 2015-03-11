@@ -233,11 +233,17 @@ a:focus {
 }
 
 .slide q {
-    display: block;
+    /*display: block;*/
     font-size: 50px;
     line-height: 72px;
     font: Arial;
     margin-top: 100px;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slide q strong {
