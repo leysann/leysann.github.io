@@ -58,7 +58,10 @@ body {
     line-height: 1;
 }
 ol, ul {
-    list-style: none;
+    padding-left: 50px;
+}
+li {
+    list-style: disc;
 }
 blockquote, q {
     quotes: none;
@@ -245,7 +248,6 @@ img.displayed {
     margin-left: auto;
     margin-right: auto;
 }
-
 .slide q strong {
     white-space: nowrap;
 }
@@ -404,10 +406,12 @@ img.displayed {
 
 #imagination {
     width: 600px;
+    color: white;
 }
 
 #imagination .imagination {
     font-size: 78px;
+    color: white;
 }
 
 /*
