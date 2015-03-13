@@ -59,9 +59,12 @@ body {
 }
 ol, ul {
     padding-left: 50px;
+    margin: 12px;
+    font-size: 38px;
 }
 li {
     list-style: disc;
+    font-size: 38px;
 }
 blockquote, q {
     quotes: none;
@@ -268,7 +271,7 @@ img.displayed {
     color: white;
 }
 #title p{
-    font-size: 28px;
+    font-size: 35px;
 }
 
 #title .try {
@@ -285,7 +288,7 @@ img.displayed {
 }
 
 #title h1 {
-    font-size: 60px;
+    font-size: 66px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -304,6 +307,10 @@ img.displayed {
     line-height: 0px !important;
 }
 
+/*#impress p{
+    font-size: 32px;
+}
+*/
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
@@ -673,6 +680,10 @@ img.displayed {
 .impress-on-bored {
 
 }
+.impress-on-bored p{
+    font-size: 38px;
+}
+
 .impress-on-bored .hint {
     /*
         We remove the transparency and position the hint in its default fixed

@@ -16,24 +16,6 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 
-<!--
-    
-    Body element is used by impress.js to set some useful class names, that will allow you to detect
-    the support and state of the presentation in CSS or other scripts.
-    
-    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
-    support features required by impress.js, so you should apply some fallback styles in your CSS.
-    It's not necessary to add it manually on this element. If the script detects that browser is not
-    good enough it will add this class, but keeping it in HTML means that users without JavaScript
-    will also get fallback styles.
-    
-    When impress.js script detects that browser supports all required features, this class name will
-    be removed.
-    
-    The class name on body element also depends on currently active presentation step. More details about
-    it can be found later, when `hint` element is being described.
-    
--->
 <body class="impress-not-supported">
 
 <!--
@@ -50,11 +32,23 @@
         <h1>Efficient methods of data acquisition and visualization in Vibroarthrography</h1>
         <span class="footnote">Final presentation</span><br />
         <p>Leysan Nurgalieva<br />
-        Supervisor: prof. Yannis Velegrakis</p>
+        Supervisor: prof. Yannis Velegrakis<br />
+        Co-supervisor: Dr.-Ing. Oussama Jarrousse</p>
     </div>
 
+        <div class="step slide" data-x="1000" data-y="-1500">
+            <q>Knee Osteoarthritis (OA)</q>
+            <p><img src="images/12.jpg" style="float:left;width:504px;">Risk for > 50 age</p><br /><br /><br /><br /><br /><br /><br />
+            <p></p>
+            <p style="text-align:left;"><br />Popular methods <img src="images/mri.jpg" alt="mri" style="float:right;width:514px;"></p>
+        </div>
 
-        <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <div class="step slide" data-x="0" data-y="-1500">
+            <q>The <strong>Method</strong></q>
+            <p>Non-invasive diagnostic tool recording acoustic signals from the human knee during the movement of the leg to detect articular cartilage degeneration<br /><br /><img class="displayed" src="images/patentpic.png" alt="Stakeholders" style="width:704px;"></p>
+        </div>
+
+        <div id="bored" class="step slide" data-x="1000" data-y="-1500">
             <q><strong>Vibroarthrography</strong> Project</q>
             <p><br />Project objectives<img src="images/stakeholders.png" alt="Stakeholders" style="position: fixed;bottom: 0px;right: 0px;width:504px;"></p>
             <ul>
@@ -64,19 +58,6 @@
                 <li>Graphical user interface;</li>
                 <li>Consumer-oriented product development.</li>
             </ul>
-        </div>
-
-        <div class="step slide" data-x="0" data-y="-1500">
-            <q>The <strong>Method</strong></q>
-            <p><br />The patent of Dr.Czernicki (US 20040054302 A1)
-            <br /><br />Non-invasive diagnostic tool recording acoustic signals from the human knee during the movement of the leg to detect articular cartilage degeneration<br /><br /><img class="displayed" src="images/patentpic.png" alt="Stakeholders" style="width:704px;"></p>
-        </div>
-
-        <div class="step slide" data-x="1000" data-y="-1500">
-            <q>Knee Osteoarthritis</q>
-            <p><img src="images/12.jpg" alt="Stakeholders" style="float:left;width:504px;">Risk for > 50 age</p><br /><br /><br /><br /><br /><br /><br />
-            <p></p>
-            <p style="text-align:left;"><br />Popular methods <img src="images/mri.jpg" alt="mri" style="float:right;width:514px;"></p>
         </div>
 
     <div class="step slide" data-x="-1000" data-y="1500">
