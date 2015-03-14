@@ -60,11 +60,11 @@ body {
 ol, ul {
     padding-left: 50px;
     margin: 12px;
-    font-size: 38px;
+    font-size: 32px;
 }
 li {
     list-style: disc;
-    font-size: 38px;
+    font-size: 32px;
 }
 blockquote, q {
     quotes: none;
