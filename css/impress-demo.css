@@ -270,8 +270,10 @@ img.displayed {
     padding: 0;
     color: white;
 }
-#title p{
+#title .line p{
     font-size: 35px;
+    line-height: 60% !important;
+    letter-spacing: -1px;
 }
 
 #title .try {
