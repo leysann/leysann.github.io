@@ -569,7 +569,7 @@ img.displayed {
     `impress-on-` class.
 */
 .impress-on-overview .step {
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
 }
 
