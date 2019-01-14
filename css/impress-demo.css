@@ -99,7 +99,7 @@ body {
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));*/
 
-    background: -webkit-linear-gradient(left top, #0962b6 , #1b98f2) ; /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(left top, #FFFAF0 , #1b98f2) ; /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0962b6 , #1b98f2#0962b6 , #1b98f2#0962b6 , #1b98f2); 
     background: -moz-linear-gradient(bottom right, #0962b6 , #1b98f2#0962b6 , #1b98f2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #0962b6 , #1b98f2); /* Standard syntax */
